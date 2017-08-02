@@ -1,0 +1,20 @@
+{
+  "name": "trace3",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[iis]",
+    "recipe[iisnode]",
+    "recipe[trace3::iis]"
+  ],
+  "env_run_lists": {
+
+  }
+}
